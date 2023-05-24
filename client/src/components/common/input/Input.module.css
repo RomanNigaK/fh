@@ -1,0 +1,25 @@
+.wrapper {
+  width: 300px;
+  height: 50px;
+  background: #eeeeee;
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.error {
+  margin-top: 17px;
+  position: absolute;
+  margin-left: 320px;
+  background-color: #fff;
+  z-index: 999;
+  color: #ff4a32;
+  border-bottom: 1px solid #ff4a32;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  > svg {
+    rotate: 180deg;
+    margin-right: 10px;
+  }
+}

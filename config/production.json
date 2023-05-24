@@ -1,0 +1,5 @@
+{
+  "port": 80,
+  "urlMongo": "mongodb+srv://romannkulish:dtaaes5unzJRjCJn@cluster0.jilmcmm.mongodb.net/app?retryWrites=true&w=majority",
+  "jwtSecret": "webapplication"
+}

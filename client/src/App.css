@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "JuliusSansOne-Regular";
+  src: url("./style/fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf")
+    format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  background-color: #d0cece;
+  font-family: "PT Serif";
+  font-style: normal;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 400;
+  font-size: 16px;
+}
+input:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}

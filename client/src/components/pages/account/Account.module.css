@@ -1,0 +1,58 @@
+.account {
+  padding-left: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.info {
+  display: flex;
+}
+.sex {
+  margin-right: 25px;
+}
+.sex img {
+  width: 80px;
+}
+.editData {
+  width: 377px;
+  text-align: center;
+  background: #ff4a32;
+  border-bottom: 3px solid #ffffff;
+  border-radius: 0px 0px 10px 0px;
+  height: inherit;
+  padding-bottom: 25px;
+}
+.box {
+  display: flex;
+
+  justify-content: center;
+  margin-top: 25px;
+}
+.photo {
+  width: 200px;
+  height: 200px;
+  background: #d9d9d9;
+  border-radius: 100px;
+}
+.edit {
+  position: absolute;
+}
+
+.photo img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+
+.label {
+  text-align: left;
+  color: #ffffff;
+  margin-left: 5px;
+}
+.label::before {
+  content: "- ";
+}
+
+h4 {
+  font-size: 14pt;
+  color: #ffffff;
+}

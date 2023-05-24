@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.header {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.wrapperBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.data div {
+  margin-bottom: 15px;
+}

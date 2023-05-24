@@ -1,0 +1,59 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.registration {
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.header {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.wrapperBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.data {
+  display: flex;
+}
+
+.inputs div {
+  margin-bottom: 15px;
+}
+.pfoto {
+  text-align: center;
+  width: 350px;
+}
+.pfotoProfile {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  background: #eeeeee;
+  border-radius: 250px;
+}
+.sex {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.activeSex {
+  border-bottom: 2px solid black;
+  width: 70px;
+}
+.pfotoProfile img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+  margin: 0 auto;
+}
+.edit {
+  position: absolute;
+}
